@@ -1,0 +1,18 @@
+name: BetterEC
+version: '1.0-SNAPSHOT'
+main: org.justt.betterEC.BetterEC
+api-version: '1.20'
+commands:
+  ec:
+    description: "Open the custom enderchest by a command."
+    permission: betterec.ec
+  openec:
+    description: "Admins can use this command to open the enderchest of another player."
+    permission: betterec.openec
+permissions:
+  betterec.ec:
+    description: "Permits to use /ec"
+    default: op
+  betterec.openec:
+    description: "Permits to use /openec"
+    default: op
